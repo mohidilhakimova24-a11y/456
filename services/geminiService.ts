@@ -39,9 +39,7 @@ export const editImageWithGemini = async (imageFile: File, prompt: string): Prom
   try {
     const response = await ai.models.generateContent({
       model: 'gemini-2.5-flash-image',
-      contents: {
-        parts: [imagePart, textPart],
-      },
+      contents: [imagePart, textPart],
       config: {
         responseModalities: [Modality.IMAGE],
       },
