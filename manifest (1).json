@@ -1,0 +1,11 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "45-eight.vercel",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "45-eight.vercel",
+  "start_url": "/",
+  "theme_color": "#ffffff"
+}
